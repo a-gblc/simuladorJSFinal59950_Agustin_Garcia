@@ -49,3 +49,16 @@ document.addEventListener('DOMContentLoaded', () => {
         anioPiePag.textContent = `CoderHouse ${anioActual}`;
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fechaActual = new Date();
+    
+    const fechaFormateada = `${fechaActual.getDate().toString().padStart(2, '0')}/${
+        (fechaActual.getMonth() + 1).toString().padStart(2, '0')}/${
+        fechaActual.getFullYear()}`;
+    
+    const cotiDelDia = document.querySelector('.CotiDelDia');
+    if (cotiDelDia) {
+        cotiDelDia.textContent = `Cotizaciones del día ${fechaFormateada}`;
+    }
+});

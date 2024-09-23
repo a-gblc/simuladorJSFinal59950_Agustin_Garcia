@@ -1,0 +1,6 @@
+[
+    { "id": 1, "tipo": "Hipotecario", "tasa": 0.005 },
+    { "id": 2, "tipo": "Pyme", "tasa": 0.015 },
+    { "id": 3, "tipo": "Personal", "tasa": 0.025 },
+    { "id": 4, "tipo": "Automotor", "tasa": 0.035 }
+]
