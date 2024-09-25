@@ -1,7 +1,6 @@
 
 
-//La creacion de la barra de navegacion desde .js esta hecho solamente para index.html, en el resto de las paginas no lo 
-//termine. Cuando voy al INICIO desde la barra de navegacion me da un error, evidentemente no esta bien hecho el tema de crearlo desde el .js
+// Cuando voy al INICIO desde la barra de navegacion me da un error, evidentemente no esta bien hecho el tema de crearlo desde el .js
 
 
 document.addEventListener('DOMContentLoaded', function () {
